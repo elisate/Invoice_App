@@ -1,0 +1,210 @@
+
+.array
+{
+      display: flex;
+      flex-direction: row;
+       gap: 4.5rem;
+      align-items: center;
+      background-color:#1E2139;
+      margin-bottom:5px;
+     width: 40rem;
+      height: 5rem;
+       padding-right: 2rem;
+      padding-left: 2rem;
+      border-radius:5px;
+
+
+margin: 1 rem;
+}
+.array:hover {
+  transform: translateX(20px);
+  transform: translateY(2px);
+border-color: #33D69F;
+border: 1px;
+ 
+} 
+
+.centering
+{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.item
+{
+    gap:2rem;
+}
+
+.status-button .text.pending{
+    color: #FF8F00;
+    font-size: 10px;
+    width:6rem;
+    height:2.5rem;
+    border-radius:4px;
+    background-color:#2B2736 ;
+}
+
+.status-button .text.paid{
+    color:#33D69F;
+    font-size: 10px;
+    width:6rem;
+    height:2.5rem;
+    border-radius:4px;
+    background-color:#1F2C3F;
+}
+.status-button .text.draft{
+
+    color:white;
+    font-size: 10px;
+    border-radius:4px;
+    border:0px;
+    width:6rem;
+    height:2.5rem;
+    background-color:#292C45;
+}
+.container{
+
+    margin-left: 26%;
+    margin-right: 20%;
+}
+.bigcontainer{
+    background-color:#141625 ;
+    width: 1280px;
+    height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 9rem;
+}
+.head
+{
+  
+    display: flex;
+    flex-direction: row;
+   
+    
+}
+
+.big_form{
+ 
+    background-color:#1E2139;
+    width: 28rem;
+    padding-top:2rem;
+    padding-left:3.8rem;
+    padding-right:2rem;
+    border-radius:20px;
+    padding-bottom:2rem;
+    height: 73rem;
+    margin-left: 6.9%;
+    padding-right: 18%;
+  
+   justify-content: left;
+  
+  }
+
+
+.text_type{
+  background-color: #2e3358;
+  border:0px;
+
+  width: 520px;
+  height:45px;
+  border-radius: 5px;}
+  .additem{
+
+    width: 500px;
+    height:45px;
+    background-color: #1E2139;
+    border-radius: 20px;
+    border: 0px;
+    color:  #2e3358;;
+  }
+  .additem:hover {
+    background-color: white;
+  }
+  .text_type2{
+    width: 147px;
+    height:45px;
+    background-color: #2e3358;
+    border:0px;
+    border-radius: 5px;
+  }
+  .text_type{
+    background-color: #2e3358;
+    border:0px;
+  
+    width: 520px;
+    height:45px;
+    border-radius: 5px;
+  
+  }
+  .f2{
+    display: flex;
+    gap: 2rem;
+  }
+  .subitem{
+    display: flex;
+    flex-direction: row;
+    gap:5rem;
+}
+
+.addbutton{
+    width: 520px;
+    height:45px;
+    color:#303666;
+    background-color:#1E2139;
+    border-radius:20px;
+  
+  }
+  .addbutton:hover{
+    background-color: white;
+   
+  }
+  .draftsend{
+
+display: flex;
+flex-direction: row;
+gap:0.5rem;
+margin-left: 2rem;
+  }
+.draft{
+    border-radius:25px;
+background-color: #373B53;
+border: 0px;}
+.draft:hover
+{
+    background-color:#0C0E16 ;
+}
+
+.save{
+    border-radius:25px;  
+    background-color: #312D60;
+    border: 0px;
+}
+.discard{
+    border-radius:25px;  
+    background-color:#F9FAFE ;
+    color: #373B53;
+    border:0px;
+}
+.Formend
+{
+    display: flex;
+    flex-direction: row;
+    gap:3rem;
+}
+.text_type3{
+   
+    background-color:#252945;
+    border-radius:6px;
+     border:0px;
+     width: 520px;
+     height:45px;
+}
+.HEADO{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+

@@ -1,0 +1,63 @@
+
+.f1{
+  display: flex;
+  gap: 2rem;
+  
+}
+
+
+.f4{
+  display: flex;
+  gap: 1.5rem;
+
+}
+.f5{
+  display: flex;
+  gap: 1.5rem;
+}
+.f6{
+  padding-left: 10rem;
+}
+.bigform{
+  background-color: #1E2139;
+  margin: 0 auto;
+ width: 500px;
+ height:1000px;
+  padding: 30px 30px;
+
+  border-radius: 35px;
+  border: 0px;
+}
+
+.bigcontainer
+{
+  width:87.5rem;
+  height: 95rem;
+}
+
+@media(max-width: 480px) {
+  .bigform {
+    padding: 20px;
+  }
+} 
+
+@media (max-width: 768px) {
+  .f1, .f2, .f3, .f4, .f5 {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .f6 {
+    padding-left: 0;
+  }
+
+  .bigform {
+    max-width: 100%;
+  
+  }
+}
+
+
+
+
+

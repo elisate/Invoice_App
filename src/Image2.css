@@ -1,0 +1,26 @@
+.IMG{
+    background-color: #444864;
+
+justify-content: left;
+display: flex;
+flex-direction: column;
+width:6.6rem;
+position: fixed;
+gap: 20rem;
+/* gap: 10rem; */
+ border: 0px;
+ height:39rem;
+ gap: 24rem;
+ border-top-right-radius: 20px; /* Adjust the radius as needed */
+ border-bottom-right-radius: 20px; /* Adjust the radius as needed */
+  /* border-radius:20px; */
+}
+@media screen and (max-width: 768px){
+  .IMG{
+    /* justify-content: left; */
+    display: flex;
+    flex-direction: row;
+    width: 35.1em;
+    height: 6.6rem;
+
+}}
